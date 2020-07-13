@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLCatcherMkII", "XMLCatcherMkII\XMLCatcherMkII.csproj", "{90EDD439-06F5-4201-9980-0166B59FBEE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLCatcherMkII_proto", "XMLCatcherMkII_proto\XMLCatcherMkII_proto.csproj", "{0A86A71D-5816-443C-BBFD-09C4F6B6563F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90EDD439-06F5-4201-9980-0166B59FBEE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90EDD439-06F5-4201-9980-0166B59FBEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90EDD439-06F5-4201-9980-0166B59FBEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90EDD439-06F5-4201-9980-0166B59FBEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A86A71D-5816-443C-BBFD-09C4F6B6563F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A86A71D-5816-443C-BBFD-09C4F6B6563F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A86A71D-5816-443C-BBFD-09C4F6B6563F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A86A71D-5816-443C-BBFD-09C4F6B6563F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC66903A-1AD9-4A8D-A351-E65F5DB2A0AB}
+	EndGlobalSection
+EndGlobal
