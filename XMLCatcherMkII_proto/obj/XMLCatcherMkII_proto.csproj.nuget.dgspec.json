@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "M:\\GitHubStaging\\XMLCatcherMkII\\XMLCatcherMkII_proto\\XMLCatcherMkII_proto.csproj": {}
+    "M:\\GitHub\\XMLCatcherMkII\\XMLCatcherMkII_proto\\XMLCatcherMkII_proto.csproj": {}
   },
   "projects": {
-    "M:\\GitHubStaging\\XMLCatcherMkII\\XMLCatcherMkII_proto\\XMLCatcherMkII_proto.csproj": {
+    "M:\\GitHub\\XMLCatcherMkII\\XMLCatcherMkII_proto\\XMLCatcherMkII_proto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\GitHubStaging\\XMLCatcherMkII\\XMLCatcherMkII_proto\\XMLCatcherMkII_proto.csproj",
+        "projectUniqueName": "M:\\GitHub\\XMLCatcherMkII\\XMLCatcherMkII_proto\\XMLCatcherMkII_proto.csproj",
         "projectName": "XMLCatcherMkII_proto",
-        "projectPath": "M:\\GitHubStaging\\XMLCatcherMkII\\XMLCatcherMkII_proto\\XMLCatcherMkII_proto.csproj",
+        "projectPath": "M:\\GitHub\\XMLCatcherMkII\\XMLCatcherMkII_proto\\XMLCatcherMkII_proto.csproj",
         "packagesPath": "C:\\Users\\Artur\\.nuget\\packages\\",
-        "outputPath": "M:\\GitHubStaging\\XMLCatcherMkII\\XMLCatcherMkII_proto\\obj\\",
+        "outputPath": "M:\\GitHub\\XMLCatcherMkII\\XMLCatcherMkII_proto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "TaskScheduler": {
+              "target": "Package",
+              "version": "[2.8.20, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

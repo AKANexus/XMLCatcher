@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace XMLCatcherMkII_proto
+namespace XMLCatcherMkII_Installer
 {
     /// <summary>
     /// Interaction logic for App.xaml

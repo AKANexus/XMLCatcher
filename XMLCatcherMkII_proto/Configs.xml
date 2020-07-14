@@ -1,0 +1,10 @@
+﻿<Configuracoes>
+  <FTPUser>ambisoft1</FTPUser>
+  <FTPPass>VHIxbGhhd2Vi</FTPPass>
+  <CNPJ>22141365000179</CNPJ>
+  <Serial>XML1034AGPQ0124</Serial>
+  <Version>1.0.0.0</Version>
+  <PastasMonitoradas>
+    <Pasta>Pasta1</Pasta>
+  </PastasMonitoradas>
+</Configuracoes>

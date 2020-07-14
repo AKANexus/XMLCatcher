@@ -1,9 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "6OdGqMfYjpWsqfHeyFlgCmLrnb8JQq4P+V0lkDNLNf4jP2uao4rmomIDER07V86U59jO6Iq7DRe3C3sAzA0JjA==",
+  "dgSpecHash": "X34kKhM0WM4mp93uaNGGR2GcbGJQ7pePpR+LxZe63P+SCJUnVxkqpUpWBf6iy9ZyY6cRep69dBEj2PtH6PZJTA==",
   "success": true,
-  "projectFilePath": "M:\\GitHubStaging\\XMLCatcherMkII\\XMLCatcherMkII_proto\\XMLCatcherMkII_proto.csproj",
+  "projectFilePath": "M:\\GitHub\\XMLCatcherMkII\\XMLCatcherMkII_proto\\XMLCatcherMkII_Installer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Artur\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\Artur\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\Artur\\.nuget\\packages\\system.diagnostics.eventlog\\4.6.0\\system.diagnostics.eventlog.4.6.0.nupkg.sha512",
+    "C:\\Users\\Artur\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\Artur\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\Artur\\.nuget\\packages\\taskscheduler\\2.8.20\\taskscheduler.2.8.20.nupkg.sha512",
     "C:\\Users\\Artur\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
   "logs": []
