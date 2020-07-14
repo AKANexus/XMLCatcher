@@ -445,7 +445,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "M:\\GitHub\\XMLCatcherMkII\\XMLCatcherMkII_proto\\XMLCatcherMkII_Installer.csproj",
-      "projectName": "XMLCatcherMkII_Installerbb",
+      "projectName": "Instalar",
       "projectPath": "M:\\GitHub\\XMLCatcherMkII\\XMLCatcherMkII_proto\\XMLCatcherMkII_Installer.csproj",
       "packagesPath": "C:\\Users\\Artur\\.nuget\\packages\\",
       "outputPath": "M:\\GitHub\\XMLCatcherMkII\\XMLCatcherMkII_proto\\obj\\",

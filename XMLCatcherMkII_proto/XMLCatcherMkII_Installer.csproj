@@ -5,7 +5,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
     <StartupObject>XMLCatcherMkII_Installer.App</StartupObject>
-    <AssemblyName>XMLCatcherMkII_Installerbb</AssemblyName>
+    <AssemblyName>Instalar</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -14,7 +14,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="TaskScheduler" Version="2.8.20" />
+    <None Remove="configs.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="configs.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TaskScheduler" Version="2.8.20">
+      <ExcludeAssets></ExcludeAssets>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>

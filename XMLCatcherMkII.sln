@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XMLCatcherMkII_Installer", "XMLCatcherMkII_proto\XMLCatcherMkII_Installer.csproj", "{0A86A71D-5816-443C-BBFD-09C4F6B6563F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLCatcherMkII", "XMLCatcherMkII\XMLCatcherMkII.csproj", "{E6905B9C-41DF-45DA-8D94-F7256841053F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XMLCatcherMkII", "XMLCatcherMkII\XMLCatcherMkII.csproj", "{E6905B9C-41DF-45DA-8D94-F7256841053F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

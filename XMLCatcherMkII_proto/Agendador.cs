@@ -36,7 +36,7 @@ namespace XMLCatcherMkII_Installer
             DailyTrigger dt = td.Triggers.Add(new DailyTrigger(1));
             dt.Repetition.Interval = TimeSpan.FromHours(4);
 
-            td.Actions.Add(new ExecAction("notepad.exe", "", null));
+            td.Actions.Add(new ExecAction($@"{AppDomain.CurrentDomain.BaseDirectory}RunBackup.exe", "", null));
 
             const string taskName = @"TrilhaInformatica\BackupXML";
             try

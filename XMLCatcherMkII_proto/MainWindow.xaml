@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:XMLCatcherMkII_Installer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="144" Width="314" WindowStyle="ToolWindow">
+        Title="MainWindow" Height="144" Width="314" WindowStyle="ToolWindow" KeyDown="Window_KeyDown" KeyUp="Window_KeyUp">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -16,7 +16,7 @@
             <RowDefinition Height="21*"/>
         </Grid.RowDefinitions>
         <TextBlock Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="128"><Run Text="Instalar Backup de XML?"/></TextBlock>
-        <Button Name="but_Configurar" Content="Abrir configurações" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center"/>
-        <Button Name="but_Instalar" Content="Instalar" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center"/>
+        <Button Name="but_Configurar" Content="Abrir configurações" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Click="but_Configurar_Click"/>
+        <Button Name="but_Instalar" Content="Instalar" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Click="but_Instalar_Click"/>
     </Grid>
 </Window>
