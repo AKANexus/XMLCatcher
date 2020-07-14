@@ -15,7 +15,7 @@ namespace XMLCatcherMkII_Installer
         private bool _shiftPressed = false;
         private Configuracoes _configuracoes = new Configuracoes();
         private Encryption _encryption = new Encryption();
-        private XMLReader _xMLReader = new XMLReader($@"{AppDomain.CurrentDomain.BaseDirectory}config.xml", new XmlSerializer(typeof(Configuracoes)));
+        private XMLReader _xMLReader = new XMLReader($@"{AppDomain.CurrentDomain.BaseDirectory}configs.xml", new XmlSerializer(typeof(Configuracoes)));
         private Agendador _agendador = new Agendador();
         public MainWindow()
         {
@@ -58,7 +58,7 @@ namespace XMLCatcherMkII_Installer
             }
             else
             {
-                System.Diagnostics.Process.Start("notepad.exe", $@"{AppDomain.CurrentDomain.BaseDirectory}config.xml");
+                System.Diagnostics.Process.Start("notepad.exe", $@"{AppDomain.CurrentDomain.BaseDirectory}configs.xml");
             }
         }
 

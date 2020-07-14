@@ -5,6 +5,6 @@
   <Serial>XML1034AGPQ0124</Serial>
   <Version>1.0.0.0</Version>
   <PastasMonitoradas>
-    <Pasta>M:\GitHub\XMLCatcherMkII\XMLCatcherMkII_proto\bin\Release\netcoreapp3.1\publish</Pasta>
+    <Pasta>M:\GitHub\AmbiPDV\AmbiPDV\bin\AnyCPU\Debug\SAT\Vendas</Pasta>
   </PastasMonitoradas>
 </Configuracoes>
