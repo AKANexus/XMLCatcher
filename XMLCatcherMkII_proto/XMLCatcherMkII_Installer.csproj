@@ -6,6 +6,7 @@
     <UseWPF>true</UseWPF>
     <StartupObject>XMLCatcherMkII_Installer.App</StartupObject>
     <AssemblyName>Instalar</AssemblyName>
+    <SatelliteResourceLanguages>pt-BR</SatelliteResourceLanguages>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">

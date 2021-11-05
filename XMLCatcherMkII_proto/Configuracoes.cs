@@ -7,7 +7,6 @@ namespace XMLCatcherMkII_Installer
         public string FTPUser { get; set; }
         public string FTPPass { get; set; }
         public string CNPJ { get; set; }
-        public string Serial { get; set; }
         public string Version { get; set; }
         [XmlArrayItem("Pasta")]
         public string[] PastasMonitoradas { get; set; }

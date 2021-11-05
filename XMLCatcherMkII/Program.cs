@@ -16,16 +16,8 @@ namespace XMLCatcherMkII
     {
         static void Main(string[] args)
         {
-            Configuracoes teste = new Configuracoes();
-            _xMLReader.Serializa(teste);
 
             Configuracoes configs = (Configuracoes)_xMLReader.Deserializa();
-
-            string[] licencaReply = _licenca.VerificarSerialOnline(configs.Serial, configs.CNPJ);
-            if (!(licencaReply[0] == "100"))
-            {
-                myLog.WriteEntry("Falha ao autorizar o BackUp XML", EventLogEntryType.Information);
-            }
 
             WebRequest request = WebRequest.Create($@"ftp://ftp.ambisoft.com.br/XML/{configs.CNPJ}/");
             request.Method = WebRequestMethods.Ftp.MakeDirectory;
@@ -60,7 +52,6 @@ namespace XMLCatcherMkII
         }
         static Encryption _encryption = new Encryption();
         static XMLReader _xMLReader = new XMLReader($@"{AppDomain.CurrentDomain.BaseDirectory}configs.xml", new XmlSerializer(typeof(Configuracoes)));
-        static LicencaDeUso _licenca = new LicencaDeUso();
         static EventLog myLog = new EventLog("Application") { Source = "Application" };
     }
 

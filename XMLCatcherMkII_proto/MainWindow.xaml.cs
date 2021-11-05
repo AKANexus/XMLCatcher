@@ -40,6 +40,7 @@ namespace XMLCatcherMkII_Installer
 
             _xMLReader.Serializa(configs);
             _agendador.CriaTarefa();
+            MessageBox.Show("Tarefa configurada com sucesso!");
         }
 
         private void but_Configurar_Click(object sender, RoutedEventArgs e)
