@@ -16,6 +16,9 @@ namespace XMLCatcherMkII
     {
         static void Main(string[] args)
         {
+            Configuracoes teste = new Configuracoes();
+            _xMLReader.Serializa(teste);
+
             Configuracoes configs = (Configuracoes)_xMLReader.Deserializa();
 
             string[] licencaReply = _licenca.VerificarSerialOnline(configs.Serial, configs.CNPJ);

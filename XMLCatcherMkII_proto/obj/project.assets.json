@@ -1770,7 +1770,7 @@
           }
         }
       },
-      "XMLCatcherMkII/1.0.0": {
+      "RunBackup/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -1778,10 +1778,10 @@
           "System.Diagnostics.EventLog": "4.7.0"
         },
         "compile": {
-          "bin/placeholder/XMLCatcherMkII.dll": {}
+          "bin/placeholder/RunBackup.dll": {}
         },
         "runtime": {
-          "bin/placeholder/XMLCatcherMkII.dll": {}
+          "bin/placeholder/RunBackup.dll": {}
         }
       }
     }
@@ -6162,7 +6162,7 @@
         "taskscheduler.nuspec"
       ]
     },
-    "XMLCatcherMkII/1.0.0": {
+    "RunBackup/1.0.0": {
       "type": "project",
       "path": "../XMLCatcherMkII/XMLCatcherMkII.csproj",
       "msbuildProject": "../XMLCatcherMkII/XMLCatcherMkII.csproj"
@@ -6170,12 +6170,12 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "TaskScheduler >= 2.8.20",
-      "XMLCatcherMkII >= 1.0.0"
+      "RunBackup >= 1.0.0",
+      "TaskScheduler >= 2.8.20"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Artur\\.nuget\\packages\\": {},
+    "M:\\.nuget": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -6184,7 +6184,7 @@
       "projectUniqueName": "M:\\GitHub\\XMLCatcherMkII\\XMLCatcherMkII_proto\\XMLCatcherMkII_Installer.csproj",
       "projectName": "Instalar",
       "projectPath": "M:\\GitHub\\XMLCatcherMkII\\XMLCatcherMkII_proto\\XMLCatcherMkII_Installer.csproj",
-      "packagesPath": "C:\\Users\\Artur\\.nuget\\packages\\",
+      "packagesPath": "M:\\.nuget",
       "outputPath": "M:\\GitHub\\XMLCatcherMkII\\XMLCatcherMkII_proto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
@@ -6203,6 +6203,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
             "M:\\GitHub\\XMLCatcherMkII\\XMLCatcherMkII\\XMLCatcherMkII.csproj": {
               "projectPath": "M:\\GitHub\\XMLCatcherMkII\\XMLCatcherMkII\\XMLCatcherMkII.csproj"
@@ -6218,6 +6219,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "TaskScheduler": {
             "target": "Package",
@@ -6234,12 +6236,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.2, 3.1.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -6248,7 +6244,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
